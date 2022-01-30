@@ -22,6 +22,7 @@ Para instalar o projeto, siga estas etapas:
 Windows:
 ```
 mkdir projeto
+
 cd projeto
 
 mvn install

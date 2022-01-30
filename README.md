@@ -50,14 +50,14 @@ mvn spring-boot:run
         <td>medico/create</td>
         <td>POST</td>
         <td>Cria um novo médico na aplicação.</td>
-        <td>```json
+        <td>
+          <code>
         {
           id: null,
           nome: String,
           cpf: String,
           senha: String,
-        }
-        ```
+            }</code>
         </td>
       </tr>
       <tr>

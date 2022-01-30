@@ -1,5 +1,3 @@
-# Nome do projeto
-
 ### Ajustes e melhorias
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
@@ -23,7 +21,7 @@ Para instalar o projeto, siga estas etapas:
 
 Windows:
 ```
-mkdir peojeto
+mkdir projeto
 cd projeto
 
 mvn install

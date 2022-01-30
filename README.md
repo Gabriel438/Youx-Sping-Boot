@@ -3,6 +3,7 @@
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
 - [x] Possível cadastro, update e delete dos dados
+- [x] Publicação da aplicação no Heroku
 - [ ] Autenticação Spring-boot utilizando oAuth2
 
 ## 💻 Pré-requisitos

@@ -35,7 +35,7 @@ mvn spring-boot:run
 <table>
   <thead>
     <tr>
-      <td>Todos os Endpoints deverão ser herdeiros da url https://final-spring-boot-youx.herokuapp.com/ ou http://localhost (caso tenha instalado a aplicação em sua máquina)</td>
+      <td colspan="4">Todos os Endpoints deverão ser herdeiros da url https://final-spring-boot-youx.herokuapp.com/ ou http://localhost (caso tenha instalado a aplicação em sua máquina)</td>
     </tr>
     <tr>
       <th>URL</th>

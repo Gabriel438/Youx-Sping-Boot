@@ -37,6 +37,7 @@ mvn spring-boot:run
       <th>URL</th>
       <th>Method</th>
       <th>Função</th>
+      <th>Body</th>
     </tr>
   </thead>
   <tbody>
@@ -49,6 +50,15 @@ mvn spring-boot:run
         <td>medico/create</td>
         <td>POST</td>
         <td>Cria um novo médico na aplicação.</td>
+        <td>```json
+        {
+          id: null,
+          nome: String,
+          cpf: String,
+          senha: String,
+        }
+        ```
+        </td>
       </tr>
       <tr>
         <td>medico/{id}</td>
@@ -64,6 +74,15 @@ mvn spring-boot:run
         <td>enfermeiro/create</td>
         <td>POST</td>
         <td>Cria um novo enfermeiro na aplicação.</td>
+        <td>```json
+        {
+          id: null,
+          nome: String,
+          cpf: String,
+          senha: String,
+        }
+        ```
+        </td>
       </tr>
       <tr>
         <td>enfermeiro/{id}</td>
@@ -79,6 +98,17 @@ mvn spring-boot:run
         <td>paciente/create</td>
         <td>POST</td>
         <td>Cria um novo paciente na aplicação.</td>
+        <td>```json
+        {
+          nome:String,
+          sobrenome: String,
+          email: String,
+          senha: String,
+          estado: String,
+          cpf: String,
+        }
+        ```
+        </td>
       </tr>
       <tr>
         <td>paciente/{id}</td>

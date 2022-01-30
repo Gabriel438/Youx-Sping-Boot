@@ -74,14 +74,14 @@ mvn spring-boot:run
         <td>enfermeiro/create</td>
         <td>POST</td>
         <td>Cria um novo enfermeiro na aplicação.</td>
-        <td>```json
+        <td><code>
         {
           id: null,
           nome: String,
           cpf: String,
           senha: String,
         }
-        ```
+        </code>
         </td>
       </tr>
       <tr>
@@ -98,7 +98,7 @@ mvn spring-boot:run
         <td>paciente/create</td>
         <td>POST</td>
         <td>Cria um novo paciente na aplicação.</td>
-        <td>```json
+        <td><code>
         {
           nome:String,
           sobrenome: String,
@@ -107,7 +107,7 @@ mvn spring-boot:run
           estado: String,
           cpf: String,
         }
-        ```
+        </code>
         </td>
       </tr>
       <tr>

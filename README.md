@@ -29,6 +29,3 @@ mvn install
 mvn spring-boot:run
 
 ```
-
-
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
